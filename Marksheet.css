@@ -20,25 +20,21 @@ body{
 	display:table-cell;
 	width:auto;
 }
-.marks{
-	border-collapse:collapse;
-	border:2px solid black;
-	
+.mark-table, 
+.bottom-info,.name {
+    width: 100%;       
+    max-width: 900px;  
+    margin: 20px auto; 
+    table-layout: fixed; 
+    border-collapse: collapse;
+}
+.mark-table th, .bottom-info th,.name th,.name td {
+    border: 1px solid black;
+    padding: 10px;
+    word-wrap: break-word; 
 }
 .School{
 	width:400px;
-}
-table{
-	
-	font-size:20px;
-	border-spacing:0px 20px;
-	table-layout:fixed;
-	width:auto;
-	border-collapse:collapse;
-	/*border:2px solid black;
-	padding:30px;
-	margin:0;
-	display:table-cell;*/
 }
 .sub{
 	border:2px solid black;
@@ -52,4 +48,11 @@ table{
 .element th,.element td{
 	padding-top:10px;
 	padding-bottom:10px;
+}
+tr,td{
+	border :2px solid black;
+}
+.space{
+	border:2px solid black;
+	margin:30px auto 30px auto;
 }
