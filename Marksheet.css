@@ -1,0 +1,55 @@
+body{
+	margin:0;
+	padding:0;
+}
+.form-container {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('Marksheet_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  max-width: 1000px;
+  width:90%;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align:left;
+}
+.sub{
+	border-collapse:collapse;
+	border:2px solid black;
+	display:table-cell;
+	width:auto;
+}
+.marks{
+	border-collapse:collapse;
+	border:2px solid black;
+	
+}
+.School{
+	width:400px;
+}
+table{
+	
+	font-size:20px;
+	border-spacing:0px 20px;
+	table-layout:fixed;
+	width:auto;
+	border-collapse:collapse;
+	/*border:2px solid black;
+	padding:30px;
+	margin:0;
+	display:table-cell;*/
+}
+.sub{
+	border:2px solid black;
+}
+.tot
+{
+	border:2px solid black;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.element th,.element td{
+	padding-top:10px;
+	padding-bottom:10px;
+}

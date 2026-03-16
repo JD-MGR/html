@@ -1,0 +1,122 @@
+
+<html>
+    <head>
+        <title>College Registration Form</title>
+      <link rel="stylesheet" href="StudentForm.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>  
+<center>	   
+      <h1>College Student Registration</h1>
+    <!-- <form action="submit" method="post">
+      <div class="elements"><label>Name </label><input type="text" name="name"></div>
+       <div class="elements"><label>Date of Birth  </label><input type="date" name="dob"></div>
+       <div class="elements"><label>Address </label><textarea></textarea></div>
+       <div class="elements"><label>Phone </label><input type="tel" name="phno"></div>
+       <div class="elements"><label>Total Marks </label><input type="number" name="marks"></div>
+       <div class="gender"><label>Gender </label><input type="radio" name="gender" value="male">Male
+       <input type="radio" name="gender" value="female">Female
+       </div>
+       <div class="elements"><label>College Name </label><input type="text" name=clg></div>
+       <div class="elements"><label>Country </label><input type="text"></div>
+       <div class="elements"><label>Department </label>
+        <select name ="Department">
+          <option value="">Select Department</option>
+         <option value="ece">Electronics and Communication</option>
+         <option value="it">Information Technology</option>
+         <option value="cs">Computer Science</option>
+         <option value="eee">Electrical and Electronics</option>
+         </select>
+        </div>
+       <div class="elements"><label>Year </label><input type="number" name="year"></div>
+       <div class="elements"><button>Submit</button></div>
+    </form> -->
+
+     <form action="/submit" method="post">
+  <table class="student-form-table">
+    
+    <tr class="form-row row-name">
+      <td>Student Name</td>
+      <td><input type="text" name="name" placeholder="Enter Your Name"></td>
+    </tr>
+
+    <tr class="form-row row-id">
+      <td>Student ID</td>
+      <td><input type="text" name="id" placeholder="Enter ID"></td>
+    </tr>
+
+    <tr class="form-row row-dept">
+      <td>Department</td>
+      <td>
+        <select name="dept">
+          <option value="">Select Department</option>
+          <option value="eee">Electrical and Electronics</option>
+          <option value="cs">Computer Science</option>
+          <option value="it">Information Technology</option>
+          <option value="ai">Artificial Intelligence</option>
+          <option value="ee">Electrical Engineering</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr class="form-row row-gender">
+      <td>Gender</td>
+      <td>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="others"> Others
+      </td>
+    </tr>
+
+    <tr class="form-row row-dob">
+      <td>DOB</td>
+      <td><input type="date" name="dob"></td>
+    </tr>
+
+    <tr class="form-row row-cgpa">
+      <td>CGPA</td>
+      <td><input type="text" name="gpa"></td>
+    </tr>
+
+    <tr class="form-row row-address">
+      <td>Address</td>
+      <td><textarea name="address" rows="3"></textarea></td>
+    </tr>
+
+    <tr class="form-row row-mothertongue">
+      <td>Mother Tongue</td>
+      <td><input type="text" name="mothertongue"></td>
+    </tr>
+
+    <tr class="form-row row-email">
+      <td>Email id</td>
+      <td><input type="text" name="mail"></td>
+    </tr>
+
+    <tr class="form-row row-fname">
+      <td>Father's Name</td>
+      <td><input type="text" name="fname"></td>
+    </tr>
+
+    <tr class="form-row row-mname">
+      <td>Mother's Name</td>
+      <td><input type="text" name="mname"></td>
+    </tr>
+
+    <tr class="form-row row-admission">
+      <td>Date of Admission</td>
+      <td><input type="date" name="date"></td>
+    </tr>
+
+    <tr class="row-submit">
+      <td colspan="2" style="text-align: center;">
+        <button type="submit">Submit Registration</button>
+      </td>
+    </tr>
+
+  </table>
+</form> </center>
+    </body>
+</html>
