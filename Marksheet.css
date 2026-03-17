@@ -4,55 +4,55 @@ body{
 }
 .form-container {
   background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('Marksheet_bg.jpg');
-  background-position: center;
   background-size: cover;
-  max-width: 1000px;
-  width:90%;
+  background-position:center;
+  max-width: 1100px;
+  width:95%;
   margin: 60px auto;
-  padding: 40px;
+  padding:70px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   text-align:left;
 }
-.sub{
-	border-collapse:collapse;
-	border:2px solid black;
-	display:table-cell;
-	width:auto;
-}
 .mark-table, 
 .bottom-info,.name {
     width: 100%;       
-    max-width: 900px;  
+    max-width: 90%;  
     margin: 20px auto; 
     table-layout: fixed; 
     border-collapse: collapse;
 }
-.mark-table th, .bottom-info th,.name th,.name td {
-    border: 1px solid black;
-    padding: 10px;
-    word-wrap: break-word; 
+.mark-table th, .bottom-info th,.name th {
+    border: 2px solid black;
+    padding: 5px; 
 }
-.School{
-	width:400px;
-}
-.sub{
-	border:2px solid black;
-}
-.tot
-{
-	border:2px solid black;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-.element th,.element td{
-	padding-top:10px;
-	padding-bottom:10px;
-}
-tr,td{
+td{
 	border :2px solid black;
 }
-.space{
-	border:2px solid black;
-	margin:30px auto 30px auto;
+.emblem{
+	align-items:center;
+	width:100px;
+	height:100px;
+}
+th,td{
+	padding:8px 15px;
+}
+.bottom-info{
+	margin-bottom:100px;
+}
+.middle{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.profile{
+	width:200px;
+}
+.text{
+	flex-grow:1;
+}
+.sign{
+	font-size:20px;
+	text-align:right;
+	margin-bottom:60px;
 }
