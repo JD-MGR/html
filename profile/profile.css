@@ -1,0 +1,243 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f1f3f4;
+      color: #202124;
+    }
+
+    .navbar {
+      background-color: white;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .navbar .logo {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 22px;
+      color: #5f6368;
+      letter-spacing: 1px;
+    }
+
+    .navbar .logo span {
+      color: #4285f4;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #5f6368;
+      font-size: 14px;
+      margin-left: 20px;
+    }
+
+    .nav-links a:hover {
+      color: #4285f4;
+    }
+    .hero-card {
+      background-color: white;
+      margin: 30px auto;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-banner {
+      height: 120px;
+      background: linear-gradient(90deg, #4285f4, #34a853, #fbbc04, #ea4335);
+    }
+
+    .hero-body {
+      padding: 0 32px 32px;
+      display: flex;
+      align-items: flex-end;
+      gap: 24px;
+    }
+
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #4285f4;
+      border: 4px solid white;
+      margin-top: -45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Google Sans', sans-serif;
+      font-size: 36px;
+      color: white;
+      flex-shrink: 0;
+    }
+
+    .hero-info {
+      padding-top: 12px;
+    }
+
+    .hero-info h1 {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: #202124;
+    }
+
+    .hero-info p {
+      font-size: 14px;
+      color: #5f6368;
+      margin-top: 4px;
+    }
+    .layout {
+      max-width: 860px;
+      margin: 0 auto 40px;
+      display: flex;
+      gap: 20px;
+      position:absolute;
+    }
+
+    .col-left {
+      width: 300px;
+      flex-shrink: 0;
+      justify-content: flex-start;
+    }
+
+    .col-right {
+      flex: 1;
+      justify-content: flex-end;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 15px;
+      color: #202124;
+      margin-bottom: 16px;
+    }
+
+    /* ── INFO LIST ── */
+    .info-list {
+      list-style: none;
+    }
+
+    .info-list li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f3f4;
+      font-size: 14px;
+      color: #3c4043;
+    }
+
+    .info-list li:last-child {
+      border-bottom: none;
+    }
+
+    .info-list .icon {
+      width: 18px;
+      height: 18px;
+      color: #5f6368;
+    }
+
+    .info-list .key {
+      color: #5f6368;
+      width: 90px;
+      flex-shrink: 0;
+      font-size: 13px;
+    }
+
+    /* ── CHIPS ── */
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      background-color: #e8f0fe;
+      color: #4285f4;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 100px;
+      font-family: 'Roboto', sans-serif;
+      cursor: pointer;
+    }
+    .chip:hover{
+        background-color: #4285f4;
+        color:#e8f0fe ;
+    }
+    .gallery {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .gallery::-webkit-scrollbar {
+      display: none;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+      border: 1px solid #e0e0e0;
+    }
+
+    .gallery img:hover {
+      border-color: #4285f4;
+      transform: translateY(2px);
+      height: 142px;;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 9px 22px;
+      border-radius: 6px;
+      font-family: 'Google Sans', sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-blue {
+      background-color: #4285f4;
+      color: white;
+    }
+
+    .btn-blue:hover {
+      background-color: #3367d6;
+    }
+
+    .btn-outline {
+      background-color: white;
+      color: #4285f4;
+      border: 1px solid #dadce0;
+    }
+
+    .btn-outline:hover {
+      background-color: #e8f0fe;
+    }
