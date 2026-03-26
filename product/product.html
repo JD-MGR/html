@@ -7,13 +7,16 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
             Product Page
         </title>
         <link rel="stylesheet" href="product.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
         <header class="menu">
             <nav>
                 <a href="#"><i class="fa-brands fa-apple"></i></a>
-                <a href="#">Store</a><a href=""></a>
+                <a href="#">Store</a>
                 <a href="#">Mac</a>
                 <a href="#">Ipad</a>
                 <a href="#">Iphone</a>
@@ -23,18 +26,21 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
                 <a href="#">Entertainment</a>
                 <a href="#">Support</a>
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="#"><i class="fa-utility fa-semibold fa-bag-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
             </nav>
         </header>
         </div>
         <div class="middle">
-            <h1>Speakers of the house</h1>
-            <div clas="description">With HomePod or HomePod mini, amplify all the listening experiences you love. And enjoy an effortlessly connected smart home — with Siri built in — that’s private and secure.</div>
-            <div class="homepod"></div>
-            <div class="homepod-mini"></div>
-            <div><img src="homepod.jpg" alt="homepod" class="image"></div>
+            <h1 class="speaker-text">Speakers of the house</h1>
+            <div class="description" style="color: dimgrey;">With HomePod or HomePod mini, amplify all the listening experiences you love. And enjoy an effortlessly connected smart home — with Siri built in — that’s private and secure.</div>
+            <div class="product">
+            <div class="homepod"><h2>HomePod</h2><p>Immersive,high-fidelity audio</p><p>₹32,900.00<span>*</span></p><button class="buy">Buy</button></div>
+            <div class="pr-img"><img src="homepod.jpg" alt="homepod" class="main-image"></div>
+            <div class="homepod-mini"><h2>HomePod mini</h2><p>Surprising sound for its size</p><p>₹10,900.00<span>*</span></p><button class="buy">Buy</button></div>
         </div>
-        <section class="features-section">
+        </div>
+
+        <footer class="features-section">
     <div class="feature-card">
         <img src="truck-1058.svg" alt="Delivery">
         <h3>Free delivery and pickup</h3>
@@ -45,9 +51,9 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <div class="feature-card">
         <img src="smart-home-4375.svg" alt="Buy">
         <h3>Ways to buy</h3>
-        <p>Choose the way that's right for you.</p>
+        <p>Use HomePod to easily control your HomeKit accessories with just your voice.</p>
         <a href="#">Learn more ></a>
     </div>
-</section>
+</footer>
     </body>
 </html>
