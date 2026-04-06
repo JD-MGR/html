@@ -1,0 +1,26 @@
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button{
+	padding: 45px 130px;
+	margin-top: 200px;
+	border: none;
+	border-radius: 7px;
+	background: linear-gradient(135deg, #0c54b6 0%, #01147c 100%);
+	color: white;
+	font-size: 30px;
+}
+.button:hover{
+
+	transform: scale(1.03);
+	color: midnightblue;
+	background-image: url("brightday.jpg");
+}
+body{
+	background-image: url("night.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
