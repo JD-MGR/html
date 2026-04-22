@@ -1,0 +1,20 @@
+.display{
+    display: block;
+    height: 10rex;
+    width: 40rex;
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+}
+.row1,.row2,.row3,.row4{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:2px;
+}
+button{
+    max-width: 4rem;
+}
+.calcbody{
+    max-width: 400px;
+    background-color: black;
+}
