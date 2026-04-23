@@ -5,37 +5,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="Calculator.css">
+
 </head>
 <body>
 	<div class="calcbody">
 	<input type="text" name="operation" class="display">
-	<div class="row1"><button id="one" class="">1</button>
-	<button id="two" class="">2</button>
-	<button id="three" class="">3</button>
-	<button id="divide" class="">/</button>
+	<div class="button-layout">
+	<div class="row1">
+		<button id="clear" class="util"></button>
+		<button id="allclear" class="util">AC</button>
+		<button id="modulo" class="util">%</button>
+		<button id="divide" class="symbol">/</button>
 	</div>
 	<div class="row2">
-	<button id="four" class="">4</button>
-	<button id="five" class="">5</button>
-	<button id="six" class="">6</button>
-	<button id="minus">-</button>
+	<button id="seven" class="number">7</button>
+	<button id="eight" class="number">8</button>
+	<button id="nine" class="number">9</button>
+	<button id="multiply" class="symbol">x</button>
 	</div>
 	<div class="row3">
-	<button id="one" class="">1</button>
-	<button id="two" class="">2</button>
-	<button id="three" class="">3</button>
-	<button id="plus" class="">+</button>
+	<button id="four" class="number">4</button>
+	<button id="five" class="number">5</button>
+	<button id="six" class="number">6</button>
+	<button id="minus" class="symbol">-</button>
 	</div>
 	<div class="row4">
-	<button id="symbol" class="">+/-</button>
-	<button id="zero" class="">0</button>
-	<button id="dot" class="">.</button>
-	<button id="equals" class="">=</button>
+	<button id="one" class="number">1</button>
+	<button id="two" class="number">2</button>
+	<button id="three" class="number">3</button>
+	<button id="plus" class="symbol">+</button>
+	</div>
+	<div class="row5">
+	<button id="symbol" class="number">+/-</button>
+	<button id="zero" class="number">0</button>
+	<button id="dot" class="number">.</button>
+	<button id="equals" class="symbol">=</button>
+</div>
 	</div>
 	</div>
-	<!-- <script>
+<script>
 // const prompt = require('prompt-sync')();
-
+Document.getElementsByTagName('button');
 function isNotDigit(val){
 	return Number.isNaN(alert("Enter a valid Number"));
 }
@@ -63,6 +73,6 @@ default:
 	break;
 }
 alert("The result :"+result);
-	</script> -->
-</body>
+	</script>
+ </body>
 </html>
